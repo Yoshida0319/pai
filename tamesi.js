@@ -51,7 +51,7 @@
                re.appendChild(batu);
              } else if(i+l === pai.length) {
                const batu=document.createElement('h4');
-               const maru=('50桁にはありませんでした');
+               const maru=('10000桁にはありませんでした');
                batu.innerText=maru;
                re.appendChild(batu);
              } else{
