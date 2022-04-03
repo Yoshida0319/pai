@@ -21,7 +21,6 @@
             re.appendChild(header);
             var r=[0];
          for (let i = 0; i < 10001; i++) {
-            var d=pai[i];
             var j=0;
             fun();
             function fun() {
