@@ -20,7 +20,7 @@
             header.innerText='その数列は、小数点以下';
             re.appendChild(header);
             var r=[0];
-         for (let i = 0; i+l-1 < pai.length; i++) {
+         for (let i = 0; i < 10001; i++) {
             var d=pai[i];
             var j=0;
             fun();
@@ -44,12 +44,12 @@
                 r.push(1);
                 paragraph.innerText=result;
                 re.appendChild(paragraph);
-             } else if(i+l === pai.length && r[1] === 1){
+             } else if(i === 10000 && r[1] === 1){
                const batu=document.createElement('h4');
                const maru=('にあります');
                batu.innerText=maru;
                re.appendChild(batu);
-             } else if(i+l === pai.length) {
+             } else if(i === 10000) {
                const batu=document.createElement('h4');
                const maru=('10000桁にはありませんでした');
                batu.innerText=maru;
